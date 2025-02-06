@@ -63,7 +63,8 @@ function Items() {
 
     return (
         <Box sx={{ maxWidth: "600px", margin: "auto", padding: 2 }}>
-            <h1>Work Logs</h1>
+            <h1>Lista czasu pracy
+            </h1>
 
             {/* Przycisk otwierający popup */}
             <Button variant="contained" color="primary" onClick={handleOpen} sx={{ marginBottom: 2 }}>
